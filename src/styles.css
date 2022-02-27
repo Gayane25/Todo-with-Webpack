@@ -7,3 +7,74 @@ body {
 .container {
   text-align: center;
 }
+
+.add-todo-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.input-wrapper #description-task {
+  width: 300px;
+  height: 21px;
+  border-radius: 5px;
+  border: 1px solid grey;
+}
+.button-wrapper #add-task-btn {
+  height: 26px;
+  width: 100px;
+  background-color: #03fc4e;
+  border: none;
+  border-radius: 5px;
+}
+
+.todos-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  /* width: 405px; */
+  /* text-align: center; */
+}
+
+.todos-wrapper .todo-item {
+  padding: 10px;
+  background-color: yellow;
+  border-radius: 5px;
+  width: 405px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.todos-wrapper .todo-item.checked {
+  padding: 10px;
+  background-color: grey;
+  opacity: 0.5px;
+  border-radius: 5px;
+  width: 405px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttons {
+  display: flex;
+}
+.buttons input {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+
+.buttons button {
+  margin-top: 2px;
+  outline: none;
+  border: none;
+  background-color: crimson;
+  color: #ffffff;
+  cursor: pointer;
+  height: 24px;
+  border-radius: 5px;
+}
+.middle {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
