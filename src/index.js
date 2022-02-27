@@ -1,2 +1,1 @@
-import { currentTime } from './timer.js';
-currentTime();
+import { styles } from './styles.css';
